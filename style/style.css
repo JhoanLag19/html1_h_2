@@ -1,0 +1,44 @@
+:root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+div {
+    background-color: var(--bg-wine);
+
+}
+
+.caja-1 {
+    background-color: var(--bg-blue);
+    height: 244px;
+}
+
+.caja-2 {
+    height: 424px;
+}
+
+.caja-peq {
+    width: 72%;
+    height: 200px;
+    float: left;
+    margin: 18px 0;
+}
+
+.caja-centro {
+    width: 95%;
+    height: 150px;
+    margin: 0 auto 20px auto;
+    clear: left;
+}
